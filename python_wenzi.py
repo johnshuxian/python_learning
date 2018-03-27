@@ -1,8 +1,8 @@
-import  random
+import random
 
 secret = random.randint(1,10)
 
-print('-----猜一猜我想的数字是什么？-----------')
+print('-----猜一猜我想的数字是什么？---------')
 temp = input("猜一猜：")
 guess = int(temp)
 
